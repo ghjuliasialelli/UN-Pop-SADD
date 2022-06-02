@@ -16,4 +16,4 @@ Although relatively little Sex and Age Disaggregated Data (SADD) is available fo
 ### Of interest for *you*
 To apply the disaggregated population data to stock data : `age_sex_population_example.ipynb`.
 
-To generate a disaggregation using the age labels of your choice : `disaggregation.ipynb`. Launch using [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ghjuliasialelli/UN-Pop-SADD/HEAD).
+To generate a disaggregation using the age labels of your choice : `disaggregation.ipynb` - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ghjuliasialelli/UN-Pop-SADD/HEAD?labpath=disaggregation.ipynb)
