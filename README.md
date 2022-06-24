@@ -14,5 +14,6 @@ Although relatively little Sex and Age Disaggregated Data (SADD) is available fo
 - `age_sex_population_example.ipynb` : tutorial on how to apply the disaggregated data to the 2020 Conflict stock data. 
 
 ### Execution
-- Use [![Binder](https://hub.gke2.mybinder.org/user/ghjuliasialelli-un-pop-sadd-cw8je2r0/doc/tree/disaggregation.ipynb) to generate a disaggregation using the age labels of your choice. 
+- Use [![Binder](https://hub.gke2.mybinder.org/user/ghjuliasialelli-un-pop-sadd-cw8je2r0/doc/tree/disaggregation.ipynb)] to generate a disaggregation using the age labels of your choice. 
 - To see an example of how to apply the disaggregated population data to stock data, see `age_sex_population_example.ipynb`.
+
