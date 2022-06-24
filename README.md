@@ -8,9 +8,11 @@ Although relatively little Sex and Age Disaggregated Data (SADD) is available fo
 - `automatic_generation.py` : script to generate `Population_Age_Sex_2020.xlsx`. 
 - `Population_Age_Sex_2020.xlsx` : final result of the disaggregation by broad age groups and sex.
 - `Datasets/` : folder containing the files needed to obtain `Population_Age_Sex_2020.xlsx`. 
+- `disaggregation.ipynb` : tutorial to generate the result file.
 #### used to apply the disaggregated data : 
-- `End of 2020 conflict stock by age.xlsx` (to be downloaded [here](https://norwegianrefugeecouncil.sharepoint.com/:x:/s/idmc-data-management-and-analysis/EZdFI362UAJLnBLRbbPSabABpjRPceNYrXJR9QKxeM7DbQ?e=uOJQiH)) : example Conflict stock data.
+- `End of 2020 conflict stock by age.xlsx` : example Conflict stock data.
 - `age_sex_population_example.ipynb` : tutorial on how to apply the disaggregated data to the 2020 Conflict stock data. 
 
-### Of interest for *you*
-To apply the disaggregated population data to stock data : `age_sex_population_example.ipynb`.
+### Execution
+- Use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ghjuliasialelli/UN-Pop-SADD/HEAD?labpath=disaggregation.ipynb) to generate a disaggregation using the age labels of your choice. 
+- To see an example of how to apply the disaggregated population data to stock data, see `age_sex_population_example.ipynb`.
