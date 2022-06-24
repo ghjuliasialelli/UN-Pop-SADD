@@ -39,7 +39,7 @@ def execute_generation(age_labels, file_name = 'Population_Age_Sex_2020.xlsx') :
     # Load the Population by age and sex (in thousands) data file - PopAgeSex
     pop_age_sex = pd.read_excel('Datasets/PopulationAgeSex.xlsx', sheet_name = 'Data', skiprows = 1).dropna(subset = ['Sex'])
     age_cats = [col for col in pop_age_sex.columns if not re.search('[a-zA-Z]', col)]
-    pop_age_sex['Total'] = total_pop_by_sex = pop_age_sex[age_cats].sum(axis = 1)
+    pop_age_sex['Total'] = pop_age_sex[age_cats].sum(axis = 1)
 
     # Load the Percentage of female/male populations by broad age groups (PercFemalePop/PercMalePop)
     perc_female_pop = pd.read_excel('Datasets/PercFemalePop.xlsx', sheet_name = 'Data', skiprows = 1).dropna(subset = ['Sex'])
